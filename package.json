@@ -1,0 +1,20 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "\"Realtime chat app using socket.io\"",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
+  },
+  "author": "Tarpan Bhattacharya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.2"
+  }
+}
